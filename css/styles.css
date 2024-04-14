@@ -1,0 +1,45 @@
+
+/*CONOCE MAS SECTION */
+
+.conocemas .container {
+  display: flex;
+  align-items: center;
+}
+
+.conocemas .text {
+  flex: 1;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 122px;
+}
+
+.conocemas .image{
+  width: 839px;
+  height: 596px;
+  left: -404px;
+  position: relative;
+}
+
+.conocemas .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.conocemas {
+  padding: 20px;
+}
+
+.conocemas .buttons button {
+  border-radius: 15px; 
+  text-transform: none; 
+  background-color: #A98658;
+  font-family: "Inter", sans-serif;
+  width: 350px;
+  height: 80px;
+  font-size: 28px;
+}
