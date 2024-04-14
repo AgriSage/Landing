@@ -1,14 +1,46 @@
-﻿<!DOCTYPE html>
-<html lang = "es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SafeEats</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriSage</title>
+
+    <!--usar recursos de remixicons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@material/ripple/dist/mdc.ripple.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@material/button/dist/mdc.button.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<main>
-  <section class="Planes">
+    <header>
+        <nav>
+            <img src="assets/logo-agrisage.png" class="imgBannerProductInfo" alt="">
+            <ul id="menu">
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="Planes.html">Planes</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Cursos.html">Cursos</a></li>
+                <div class="imgContenedor">
+                    <img src="assets/Registrate.png" class="imgCaptus">
+                    <a href="registro.html" class="btnBanner">Registrate</a>
+                </div>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <!--INICIO-->
+        <div class="containerB row">
+            <div class="boxB col2">
+                <h1>! Hidroponia agricultura</br>en casa descubrelo de</br>nuestras manos! </h1>
+            </div>
+            <div class="boxB col1-md-5 col-12">
+                <img src="img/Body.png" class="imgBanner" alt="">
+            </div>
+        </div>
+    </main>
+    <section class="Planes">
     <div class="ContainerP">
       <div class="boxP">
         <div class="Plan">
@@ -54,6 +86,85 @@
       </div>
     </div>
   </section>
-</main>
-</body>
+
+    <section class="conocemas">
+        <div class="container">
+            <div class="text">
+                <h2>Conviértete en un pro de la <br>hidroponía con nuestros <br> cursos</h2>
+            </div>
+            <div class="image">
+                <img src="assets/mujer.png" alt="Imagen" style="max-width: 100%;">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="mdc-button mdc-button--raised">
+                <span class="mdc-button__ripple"></span>
+                <span class="mdc-button__label">Conoce más</span>
+            </button>
+        </div>
+    </section>
+    
+    <!---footer--->
+    <footer id="contact">
+        <div class="subscribe">
+            <div class="subscribe-content">
+                <h2>iRegístrate, aprende y compra con
+                AgriSage!</h2>
+                <img src="./assets/Cactus.webp" width="70" alt="">
+                <div class="subscribe-input">
+                    <img src="images/mail-icon.svg" alt="">
+                    <input type="email" placeholder="¡Coloca tu correo electrónico!">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-info-social">
+                <p>
+                    Divirtete en el mundo de la hidroponía con nosotros.                </p>
+                <div class="social">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer-acc">
+                <div class="company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Logistic</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#">Help/FAQ</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="more">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#">Press Centre</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Low fare tips</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Copyright, <span class="agrisage-name">AgriSage</span> 2024.Todos los derechos reservados</p>
+            <a href="#">Términos & Condiciones</a>
+        </div>
+    </footer>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@material/ripple/dist/mdc.ripple.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@material/button/dist/mdc.button.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </html>
