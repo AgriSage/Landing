@@ -1,3 +1,39 @@
+.ContainerP{
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+.Container2P{
+    width: 19%;
+    padding: 3rem;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+.boxP{
+    border-radius:22px;
+    padding: 1rem 1rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(117, 175, 70);
+}
+.Plan{
+    text-align: center;
+}
+.costo{
+    text-align: center;
+}
+
+#contenido{
+    text-align: left;
+}
+
+=======
 
 /*CONOCE MAS SECTION */
 
