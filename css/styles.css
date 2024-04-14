@@ -85,6 +85,7 @@ footer {
 .subscribe-input {
   background-color: #ffffff;
   border-radius: 10px;
+  border: 1px solid #819D4E;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -101,7 +102,7 @@ footer {
 }
 
 .subscribe-input button {
-  background-color: #7aff83;
+  background-color: #819D4E;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
