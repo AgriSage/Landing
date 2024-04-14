@@ -175,3 +175,7 @@ a:hover {
 .social i:hover {
   color: var(--main-color);
 }
+
+.agrisage-name {
+  color: #819D4E;
+}
