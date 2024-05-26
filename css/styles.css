@@ -1,39 +1,55 @@
-.ContainerP{
-    width: 40%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-    grid-gap: 2rem;
-}
-.Container2P{
-    width: 19%;
-    padding: 3rem;
-    margin: 0px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-    grid-gap: 2rem;
-}
-.boxP{
-    border-radius:22px;
-    padding: 1rem 1rem;
-    width: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(117, 175, 70);
-}
-.Plan{
-    text-align: center;
-}
-.costo{
-    text-align: center;
+section {
+  padding: 100px 0;
 }
 
-#contenido{
-    text-align: left;
+.ContainerP {
+  padding: 3rem;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
 }
 
-=======
+.containerB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin: 0px auto;
+}
+
+.Container2P {
+  width: 19%;
+  padding: 3rem;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.boxP {
+  border-radius: 22px;
+  padding: 1rem 1rem;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(117, 175, 70);
+}
+
+.Plan {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.costo {
+  text-align: center;
+}
+
+#contenido {
+  text-align: left;
+}
 
 /*CONOCE MAS SECTION */
 
@@ -44,23 +60,22 @@
 .conocemas .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .conocemas .text {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   padding: 20px;
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding: 20px;
-  margin-left: 122px;
+  width: 50%;
 }
 
-.conocemas .image{
-  width: 839px;
-  height: 596px;
-  left: -404px;
-  position: relative;
+.conocemas .image {
+  width: 50%;
+  padding: 20px;
 }
 
 .conocemas .buttons {
@@ -71,12 +86,14 @@
 }
 
 .conocemas {
-  padding: 20px;
+  background-color: #eaf7d3;
+  color: #000000;
+  padding: 50px 0;
 }
 
 .conocemas .buttons button {
-  border-radius: 15px; 
-  text-transform: none; 
+  border-radius: 15px;
+  text-transform: none;
   background-color: #A98658;
   font-family: "Inter", sans-serif;
   width: 350px;
@@ -214,4 +231,28 @@ a:hover {
 
 .agrisage-name {
   color: #819D4E;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header .logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.header .nav {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header .nav {
+    flex-direction: column;
+  }
 }
